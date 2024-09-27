@@ -48,7 +48,13 @@ Handles:
 - **Event System:**  
   Sends notifications or updates based on trigger actions (e.g., emitting an alert if a door sensor is triggered).
 
-#### 3.1.2 Integrations:
+#### 3.1.2 Automation Engine:
+Handles automation with:
+- **Triggers:** Device changes, time-based events, or custom triggers.
+- **Actions:** Executed when triggers are met.
+- **Conditions:** Must be true for actions to execute.
+
+#### 3.1.3 Integrations:
 Each integration corresponds to a protocol or service that the system interacts with. Key responsibilities include:
 - **Discovery:** Identifying supported devices.
 - **Setup and Configuration:** Assisting with device configuration.
@@ -57,11 +63,6 @@ Each integration corresponds to a protocol or service that the system interacts 
 
 Blinkie aims to create its own integration architecture but will provide compatibility with the Home Assistant integration format where possible.
 
-#### 3.1.3 Automation Engine:
-Handles automation with:
-- **Triggers:** Device changes, time-based events, or custom triggers.
-- **Actions:** Executed when triggers are met.
-- **Conditions:** Must be true for actions to execute.
 
 Supports:
 - **If-This-Then-That (IFTTT)** style rules.
