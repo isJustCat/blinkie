@@ -75,7 +75,7 @@ Supports:
    Initial setup with a basic automation engine and device management system.
    
 2. **MQTT Integration:**  
-   Proof of concept integration for IoT devices using the MQTT protocol.
+   Proof of concept integration for IoT devices using the MQTT protocol and HTTP(s) APIs.
    
 3. **REST API:**  
    An API providing access to the system.
