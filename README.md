@@ -93,3 +93,8 @@ Supports:
 #### 5.3 Long-term Goals
 1. **Extensible Integration API:**  
    Excellent support for user-contributed integrations, with clear tooling and documentation for developers and power-users.
+
+
+
+### Feature wish list
+- Roles and permission management
